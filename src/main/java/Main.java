@@ -3,7 +3,7 @@ import javax.swing.JOptionPane;
 public class Main {
 
     public static void main(String[] args) {
-        int quandidade = 4;
+        int quandidade = 20;
         int numero[] = new int[quandidade];
         for (int i =0; i<quandidade; i++){
             numero[i] = Integer.parseInt(JOptionPane.showInputDialog("Insira o valor "+i+" :"));
